@@ -1,0 +1,25 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+@media only screen and (min-width: 576px) {
+    .posts{
+        flex: 8;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+    
+    }
+}
+@media only screen and (min-width: 480px) {
+    .posts{
+        flex: 10;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+    
+    }
+}
