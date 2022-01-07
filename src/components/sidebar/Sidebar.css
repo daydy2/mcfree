@@ -55,20 +55,3 @@
     font-size: 16px;
     cursor: pointer;    
 }
-
-@media only screen and (min-width: 576px) {
-    .sidebar{
-        flex: 4;
-        font-size: 12px;
-        
-    }
-    .sidebarTitle{
-        /* margin: 10px;
-        padding: 5px; */
-        width: 80%;
-        
-    }
-    .sidebarItem > img{
-        display: none;
-    }
-}
