@@ -4,6 +4,7 @@ import ReactPlayer from 'react-player'
 import {auth} from '../user/auth_signup_password';
 import { onAuthStateChanged} from 'firebase/auth';
 
+
 import { useNavigate } from "react-router-dom"
 
 
@@ -18,13 +19,14 @@ function Post(props) {
 
     // (window).resize(function () {
 
-    //     if (window.innerWidth < 768) {
+    //     if (useMediaPredicate("(min-width: 400px)")) {
 
     //        return const opts = {height: '200px',width: '100%',playerVars: {autoplay: 1,}}
            
     //     }else{
     //         return const opts = {height: '200px',width: '400px',playerVars: {autoplay: 1,}}
     //     }
+    //{height: '200px',width: '400px',playerVars: {autoplay: 1,}}
 
     const opts = {height: '200px',width: '100%',playerVars: {autoplay: 1,}}
     const [state, setState] = useState(false)
